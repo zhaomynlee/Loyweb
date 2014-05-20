@@ -1,0 +1,290 @@
+﻿<%@ Page Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>酒店預訂系統</title>
+    <link href="style/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div  id = "wapper">            
+ 
+ 
+     
+     <div id = "header">
+
+      
+        
+          <div id ="head1" >
+        
+        
+          <div id = "logo"  class ="left">
+               <img runat="server" src="~/images/logo.jpg" alt="Logo" /> 
+              </div>
+
+             <div id ="welcome" class ="right">
+             您好，歡迎使用loy.com訪問同途！  <a href ="#"> 登陸</a>  <a href ="#">  註冊</a>  <a href ="#"> 管理员入口</a>
+             </div>
+         
+           
+
+       </div>
+  
+
+         <div class="clear">   </div>
+         
+          <div id ="head2">
+             
+              
+
+              <div id ="mainmenu" class ="left">
+               <ul>
+                   <li   class ="current"><a href="Default.aspx">首頁</a></li>   <li> |</li>
+                   <li class ="current"><a href="#">我的同途</a></li>  <li> |</li>
+                   <li class ="current"><a href="#">幫助</a></li>  <li> |</li>
+                   <li class ="current"><a href="#">收藏</a></li>  <li> |</li>
+                   <li class ="current"><a href="#">微信</a></li>  <li> |</li>
+                   <li class ="current"><a href="#">電話626426</a></li>
+                  
+               </ul>
+      
+         </div>
+              <div  id ="nav">
+              所在位置：首页->二级页面->具体内容
+              </div>
+
+         </div> 
+
+     <div class="clear">   </div>
+  
+
+      
+      </div>
+
+      <div id = "mainContent" >
+
+        <div id ="leftContent"class ="left" >
+        <div class="line1" ></div>
+       <div class="line2" ></div>
+        <div class="line3" ></div>
+            <div class="LineLeftRight" > 
+                <div class="title">
+                    <a href ="Default.aspx"> 搜索酒店</a> 
+                </div>
+                    <div class="whiteback">
+                    aaaaaa<br/>
+                        aaaaaa<br/>
+                          aaaaaa<br/>
+                            aaaaaa<br/>
+                              aaaaaa<br/>
+  aaaaaa<br/>  aaaaaa<br/>
+    aaaaaa<br/>
+      aaaaaa<br/>
+
+                                aaaaaa<br/>
+                      aaaaaa<br/>
+                                     aaaaaa<br/>
+                        aaaaaa<br/>
+                          aaaaaa<br/>
+                            aaaaaa<br/>
+                              aaaaaa<br/>
+ 
+
+                                aaaaaa<br/>
+                      aaaaaa<br/>
+                </div>           
+        
+             </div>
+          <div class="line3" ></div>
+         <div class="line2" ></div>
+         <div class="line1" ></div>
+        </div>
+      
+
+
+
+         <div id = "rightContent" class ="right" >
+          
+        <div class="line1" ></div>
+       <div class="line2" ></div>
+        <div class="line3" ></div>
+         <div class="LineLeftRight">
+       
+                   <div class="title">
+                     輪播圖片
+                </div>
+                    <div class="whiteback">
+                    aaaaaa<br/>
+                        aaaaaa<br/>
+                          aaaaaa<br/>
+                            aaaaaa<br/>
+                              aaaaaa<br/>
+  aaaaaa<br/>  aaaaaa<br/>
+    aaaaaa<br/>
+      aaaaaa<br/>
+
+                                aaaaaa<br/>
+                      aaaaaa<br/>
+                                     aaaaaa<br/>
+                        aaaaaa<br/>
+                          aaaaaa<br/>
+                            aaaaaa<br/>
+                              aaaaaa<br/>
+ 
+
+                                aaaaaa<br/>
+                      aaaaaa<br/>
+                </div>           
+        
+             </div>
+        <div class="line3" ></div>
+         <div class="line2" ></div>
+         <div class="line1" ></div>
+        </div>
+
+    <div class="clear">   </div>
+       <div id = "hotcity"    class ="textcenter">
+      
+               <div class="line1" ></div>
+       <div class="line2" ></div>
+        <div class="line3" ></div>
+         <div class="LineLeftRight">
+       
+                   <div class="title">
+                <a href ="#"> 热点城市</a>   <a href ="#" class ="right"> 更多城市...</a>  
+                </div>
+                    <div class="whiteback">
+                        <div style="float:left;width:20%;height:220px;">
+                        广州
+                         <img src="images/广州.jpg" alt="Logo" /> 
+                        </div>
+                            <div style="float:left;width:20%;height:220px;">
+                       三亚
+                        <img src="images/三亚.jpg" alt="Logo" /> 
+                        </div>
+                            <div style="float:left;width:20%;height:220px;">
+                        西安
+                         <img src="images/西安.jpg" alt="Logo" /> 
+                        </div>
+                            <div style="float:left;width:20%;height:220px;">
+                        厦门
+                         <img src="images/厦门.jpg" alt="Logo" /> 
+                        </div>
+                            <div style="float:left;width:20%;height:220px;">
+                        成都
+                         <img src="images/成都.jpg" alt="Logo" /> 
+                        </div>
+                          
+                        <div  class="clear">
+                        </div>
+                            
+                </div>           
+        
+             </div>
+        <div class="line3" ></div>
+         <div class="line2" ></div>
+         <div class="line1" ></div>
+        </div>
+
+        
+       <div id = "bulletin"   >
+      
+               <div class="line1" ></div>
+       <div class="line2" ></div>
+        <div class="line3" ></div>
+         <div class="LineLeftRight">
+       
+                   <div class="title">
+                   最新公告 <a href ="#" class ="right"> 更多公告...</a>    
+                </div>
+                    <div class="whiteback" style="padding:10px;">
+                      <table border="0" cellpadding="3" cellspacing="0" width="100%" style=" margin:6px;">
+                           <tr >
+                        <td>
+                         标题 
+                        </td>     
+                        <td width="440px;">
+                           日期  
+                        </td >
+
+                        </tr>     
+                                <tr >
+                        <td class="dot">
+                         标题标题   标题标题  标题标题
+                        </td>     
+                        <td class="dot">
+                             2010-01-01 
+                        </td>
+                         </tr> 
+                                    <tr >
+                        <td class="dot">
+                         标题标题   标题标题  标题标题
+                        </td>     
+                        <td class="dot">
+                             2014-01-01 
+                        </td>
+                         </tr> 
+                                    <tr >
+                        <td class="dot">
+                         标题标题   标题标题  标题标题
+                        </td>     
+                        <td class="dot">
+                             2014-01-01 
+                        </td>
+                         </tr> 
+                                    <tr >
+                        <td class="dot">
+                         标题标题   标题标题  标题标题
+                        </td>     
+                        <td class="dot">
+                             2014-01-01 
+                        </td>
+                         </tr> 
+
+           
+                      </table> 
+                   
+                    
+                            
+                </div>           
+        
+             </div>
+        <div class="line3" ></div>
+         <div class="line2" ></div>
+         <div class="line1" ></div>
+        </div>
+    
+     </div>
+      
+
+
+
+
+
+      <div id = "footer"> 
+
+
+    
+
+           
+         <div id = "copyright" class ="textcenter" >
+           2014版权所有：第6组
+        </div>
+
+
+     </div>
+
+
+
+
+
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode  title="后台管理"  roles="管理员,客服,财务">
+
+
+		<siteMapNode title="客户管理" roles="管理员,客服">
+
+
+
+
+		</siteMapNode>
+		<siteMapNode title="酒店房间管理" roles="管理员">
+			<siteMapNode url="~/Admin/City.aspx" title="城市列表">
+				<siteMapNode url="~/Admin/NewCHRoom1.aspx" title="添加新城市" />
+			</siteMapNode>
+
+			<siteMapNode url="~/Admin/Hotel.aspx" title="酒店列表">
+				<siteMapNode url="~/Admin/Category.aspx" title="添加酒店" />
+			</siteMapNode>
+
+			<siteMapNode url="~/Admin/Room.aspx" title="房间列表">
+				<siteMapNode url="~/Admin/CDDD.aspx" title="添加新房间" />
+			</siteMapNode>
+		</siteMapNode>
+		<siteMapNode title="订单管理" roles="管理员,财务">
+			<siteMapNode url="~/Admin/Orders.aspx" title="所有订单">
+
+			</siteMapNode>
+			<siteMapNode url="~/Admin/Payment.aspx" title="收款管理" roles="财务">
+				<siteMapNode url="~/Admin/PaymentToConfirm.aspx" title="待确认收款"/>
+				<siteMapNode url="~/Admin/ConfirmPayment.aspx" title="确认收款"/>
+			</siteMapNode>
+
+
+		</siteMapNode>
+
+		<siteMapNode title="咨询"   roles="客服">
+			<siteMapNode title="有待回答的咨询" url="~/Admin/Question.aspx"  />
+			<siteMapNode title="回答咨询" url="~/Admin/Answer.aspx"   />
+
+
+		</siteMapNode>
+
+		<siteMapNode title="系统管理" roles="管理员">
+			<siteMapNode  title="用户和角色"  roles="管理员">
+				<siteMapNode url="~/Admin/Users.aspx" title="用户列表"></siteMapNode>
+				<siteMapNode url="~/Admin/NewUser.aspx" title="添加用户"/>
+			</siteMapNode>
+			<siteMapNode url="~/Admin/Roles.aspx" title="角色管理">
+			</siteMapNode>
+			<siteMapNode title="基础数据维护">
+				<siteMapNode url="~/Admin/Dic/Bank.aspx" title="银行开户帐号"/>
+			</siteMapNode>
+
+		</siteMapNode>
+
+	</siteMapNode>
+   
+</siteMap>

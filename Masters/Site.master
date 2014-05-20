@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <title>酒店預訂系統</title>
+    <link href="~/style/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+<div  id = "wapper">            
+ 
+ 
+     
+     <div id = "header">
+
+      
+        
+          <div id ="head1" >
+        
+        
+          <div id = "logo"  class ="left">
+               <img id="Img1" runat="server" src="~/images/logo.jpg" alt="Logo" /> 
+              </div>
+
+             <div id ="welcome" class ="right">
+             您好，歡迎使用loy.com訪問同途！  <a href ="Login.aspx"> 登陸</a>  <a href ="#">  註冊</a>  <a href ="Admin/Login.aspx"> 管理员入口</a>
+             </div>
+         
+           
+
+       </div>
+  
+
+         <div class="clear">   </div>
+         
+          <div id ="head2">
+             
+              
+
+              <div id ="mainmenu" class ="left">
+               <ul>
+                   <li   class ="current"><a href="~/Default.aspx">首頁</a></li>   <li> |</li>
+                   <li class ="current"><a href="#">我的同途</a></li>  <li> |</li>
+                   <li class ="current"><a href="#">幫助</a></li>  <li> |</li>
+                   <li class ="current"><a href="#">收藏</a></li>  <li> |</li>
+                   <li class ="current"><a href="#">联系我们</a></li>  
+                  
+                  
+               </ul>
+      
+         </div>
+          
+         </div> 
+
+     <div class="clear">   </div>
+  
+
+      
+      </div>
+
+      <div id = "mainContent" >
+
+          <asp:ContentPlaceHolder ID="ContentPlaceHoldermainContent" runat="server">
+          </asp:ContentPlaceHolder>
+    
+     </div>
+      
+
+
+
+
+
+      <div id = "footer"> 
+
+
+    
+
+           
+         <div id = "copyright" class ="textcenter" >
+           2014版权所有：第6组
+        </div>
+
+
+     </div>
+
+
+
+
+
+    </div>
+
+    </form>
+</body>
+</html>
